@@ -4,6 +4,13 @@ class file2{
 	int a = 3;
 	int b = 6;
 	int sum = a+b;
-	System.out.println("Sum = " + sum);	
+	System.out.println("Sum = " + sum);
+
+	 int n = 10;
+	  for(int i=1;i<=n;i++){
+		  if(i%2==0){
+			  System.out.println(i);
+		  }
+	  }	    
   }
 }
